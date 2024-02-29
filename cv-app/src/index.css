@@ -68,3 +68,103 @@ button:focus-visible {
   }
 }
 */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+body{
+  font-family:"Oswald", sans-serif;
+}
+.headingPage{
+  text-align:center;
+  margin-top:0px;
+  margin-left:0px;
+  margin-right:0px;
+  padding:20px;
+  background-color:black;
+  color:white;
+}
+.headInfo{
+  display:flex;
+  flex-direction:row;
+  gap:20px;
+  justify-content:space-between;
+}
+.headInfo div{
+  border-radius:25px;
+  margin-bottom:0px;
+}
+.headInfo div h1{
+  text-align:center;
+  color:gray;
+}
+.pInfo{
+  display:inline-block;
+  padding:20px;
+  margin:20px;
+  background-color:#f1f1f1;
+  
+}
+.liveContent{
+  background-color:#f1f1f1;
+  
+  margin:30px;
+  height:auto;
+  padding:20px;
+  display:flex;
+  flex-direction:column;
+  gap:20px;
+  justify-content:space-around;
+  align-items:center;
+}
+.eduDisp{
+  min-height:250px;
+  min-width:80%;
+  border-radius:25px;
+  background-color:black;
+  color:white;
+  padding:50px;
+}
+
+.heading{
+  font-size:20px;
+  text-align:center;
+  border-radius:20px;
+  background-color:#f1f1f1;
+  color:black;
+  padding:10px;
+}
+.schDisp{
+  min-height:250px;
+  min-width:80%;
+  border-radius:25px;
+  background-color:black;
+  color:white;
+  padding:50px;
+
+}
+.workDisp{
+  min-height:250px;
+  min-width:80%;
+  border-radius:25px;
+  background-color:black;
+  color:white;
+  padding:50px;
+}
+input{
+  display:block;
+  margin-bottom:20px;
+  font-size:25px;
+}
+
+.eduInfo{
+  display:inline-block;
+  margin:20px;
+  padding:20px;
+  background-color:#f1f1f1;
+}
+
+.workInfo{
+  display:inline-block;
+
+  margin:20px;
+  padding:20px;
+  background-color:#f1f1f1;
+}
